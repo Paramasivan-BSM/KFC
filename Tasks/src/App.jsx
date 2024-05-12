@@ -1,32 +1,52 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-
-import './App.css'
-// import Signin from './Components/SignIn'
-// import UserInfoCard from './Components/UserInfoCard';
-import Form from './Components/Form';
-import { useState } from 'react';
-
-function App() {
+//  import React, { createContext, useState } from 'react'
+// import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
+// import Home from './Home';
+// import About from './About';
+// import A1 from './A1';
 
 
-//   let [show,setshow]=useState()
-
-//   function Fcard(UD){
-
-//  return setshow(UD)
 
 
-//   }
-//   console.log(show);
+// const App = () => {
+
+//  let UserLogin = createContext()
+
+// let [ User,setUser] = useState("Hello")
+
+//   return (
+ 
+
+// <UserLogin.Provider User={User}>
+
+// <A1/>
+// </UserLogin.Provider>
+
+
+
+//   )
+// }
+
+// export default App
+import React, { createContext, useState } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import UseState from './Hooks/UseState';
+import UseEffect from './Hooks/UseEffect';
+import UseContext from './Hooks/UseContext';
+
+
+
+const App = () => {
+
 
   return (
-    <>
- {/* <Signin  Fcard={Fcard} />
- <UserInfoCard  show={show}/> */}
- <Form />
-    </>
-  )
+   <>
+   
+   {/* <UseState /> */}
+   {/* <UseEffect /> */}
+   <UseContext/>
+   
+   </>
+  );
 }
 
-export default App
+export default App;
