@@ -27,24 +27,33 @@
 // }
 
 // export default App
-import React, { createContext, useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import UseState from './Hooks/UseState';
-import UseEffect from './Hooks/UseEffect';
-import UseContext from './Hooks/UseContext';
+// import React, { createContext, useState } from 'react';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// import UseState from './Hooks/UseState';
+// import UseEffect from './Hooks/UseEffect';
 
+// import UseReducer from './Hooks/UseReducer';
 
+import UseReducer1 from "./Hooks/UseReducer1";
+import { UseRef } from "./Hooks/UseRef";
+import { UseCallback } from "./Hooks/UseCallback";
 
 const App = () => {
 
+  
 
   return (
    <>
    
    {/* <UseState /> */}
    {/* <UseEffect /> */}
-   <UseContext/>
-   
+   {/* <UseContext/>
+    */}
+    {/* <UseReducer /> */}
+    {/* <UseReducer1 /> */}
+
+    <UseCallback />
+    
    </>
   );
 }

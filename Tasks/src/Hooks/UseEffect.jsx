@@ -1,4 +1,4 @@
-import React,{useEffect, useState} from 'react'
+// import React,{useEffect, useState} from 'react'
 
 const UseEffect = () => {
     // UseEffect With Example-1
@@ -23,6 +23,8 @@ const UseEffect = () => {
     //  <button onClick={()=>setCount(Count+1)}>Increase</button>
     //  {Show && <h1>Vanakkam</h1>}
     // </div>
+    <>
+    </>
   )
 }
 
